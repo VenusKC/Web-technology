@@ -1,0 +1,29 @@
+h1{
+    color: white;
+    max-width: 450px;
+    font-size:xxx-large;
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    
+}
+h2{
+    color: white;
+    
+    max-width: 460px;
+    margin-left: 700px;
+    margin-top: -190px;
+    word-spacing: 5px;
+    
+    
+
+}
+body{
+    background-color: rgb(34, 113, 34);
+}
+img{
+    margin-top: 100px;
+    margin-right: 100px;
+    width:1200px; 
+    height:300px ;
+}

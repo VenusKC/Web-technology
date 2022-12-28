@@ -1,0 +1,28 @@
+header{
+    text-align: left;
+    font-size:xx-large ;
+    padding: 50px;
+    background-color:rgb(19, 19, 41);
+}
+section{
+    text-align: left;
+    font-size: medium;
+    display: flex;
+    background-color: aquamarine;
+    text-align: justify;
+}
+.New{
+    max-width:40%;
+    flex: 4;
+    padding: 20px;
+}
+img{
+    flex: 3;
+    width: 600px;
+}
+.foot{
+    flex: 2;
+    font-size: xx-large;
+    padding: 40px;
+    background-color: rgb(82, 31, 31);
+}
