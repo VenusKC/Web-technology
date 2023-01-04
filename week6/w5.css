@@ -1,0 +1,50 @@
+body{
+    background-color: #164a29;
+   color: white;
+  
+}
+#one{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: -60px;
+    max-width: 50%;
+}
+#three{
+margin-left: 100px;
+margin-top: 70px;
+font-size: larger;
+
+}
+#two{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: larger;
+}
+
+
+input{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: fit-content;
+    font-size: 20px;
+    background-color:orange;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+#img{
+ text-align: right;
+ margin-top: -800px;
+}
+img{
+    margin-top: 50px;
+ height: 770px;
+ width:45%;
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
