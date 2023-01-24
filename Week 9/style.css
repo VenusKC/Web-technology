@@ -1,14 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.slidebar{
+.slidebar {
     background-color: red;
+    width: 10vw;
+    font-family: 'sans-serif' 'fira sans';
+    height: 98vh;
+    padding: 20px;
 }
-.main{
+
+.slidebar nav {
+    padding: 3px;
+}
+
+.slidebar nav li {
+    list-style: none;
+    padding: 33px;
+    font-size: 20px;
+}
+
+.main {
     background-color: gold;
+    width: 90vw;
+    height: auto;
 }
-.container{
+
+.container {
     display: flex;
+}
+
+.infocontainer {
+    background-color: green;
+    height: 60vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    width: 381px;
+    height: 8cm;
 }
