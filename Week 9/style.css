@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.slidebar {
-    background-color: red;
-    width: 10vw;
+.sidebar {
+    background-color: rgb(204, 195, 195);
+    width: 255  px;
     font-family: 'sans-serif' 'fira sans';
-    height: 98vh;
+    height: 100vh;
     padding: 20px;
+
 }
 
-.slidebar nav {
+.sidebar nav {
     padding: 3px;
 }
 
-.slidebar nav li {
+.sidebar nav li {
     list-style: none;
-    padding: 33px;
+    padding:20px 2px 50px 4px;
     font-size: 20px;
 }
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(20, 19, 19);
 
+}
 .main {
-    background-color: gold;
+   /* background-color: gold;*/
     width: 90vw;
     height: auto;
 }
@@ -32,15 +39,252 @@
 }
 
 .infocontainer {
-    background-color: green;
     height: 60vh;
     width: 70vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
 }
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding: 10px;
+}
+.hello{
+    font-size: 25px; 
+    font-weight: bold;
 
+}
+
+.about{
+    font-size: 15px;
+    margin: 25px;
+}
+
+.name{
+    font-size: 20px;
+    
+}
+.buttons{
+    margin-top: 34px;
+
+}
+
+.buttons button{
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+}
+ 
+.buttons button:hover{
+    Background-color: white;
+    color: blue;
+}
 .devpic img {
-    width: 381px;
-    height: 8cm;
+    width: 350px;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.contactform h1{ 
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.contactform form{
+    align-items: center;
+    padding-left: 100px;
+}
+
+.contactform div{
+    padding: 10px 0;
+    display: flex;
+     flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(58, 7, 7);
+    margin-left: 5px;
+}
+.acc{
+    display: flex;
+    flex-direction: row;
+}
+#task{
+    display: flex;
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 15rem;
+    height: 500px;
+    padding: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .img {
+    width: 15rem;
+    height: 167px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 2px 16px 24px 13px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: grey;
+  }
+  
+  .btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding:15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+.contain{
+    display: flex;
+    padding: 100px;
+
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding:12px;
+}
+.skill{
+    width: 250px;
+    height: 10px;
+    background-color: rgb(46, 36, 75);
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    padding: 10px   ;
+}
+.hnd{
+    width: 500px;
+    background-color: aqua;
+}
+.half{
+    width: 250px;
+    background-color: rgb(33, 32, 90);
+}
+.t5{
+    width: 115px;
+    background-color: rgb(68, 13, 73);
+}
+.cvcontainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    padding: 64px 13%;
+}
+main.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 20%;
+}
+.col header.topic{
+    font-family: 'Source Code Pro', monospace;
+    color: #11a372;
+    padding: 0px 0px 20px 30px;
+}
+.col .content{
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+}
+.col .content .box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.col .content .box:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+.col .content .box::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #11a371;
+    border: 2px solid white;
+}
+.box h4{
+    position: relative;
+    color: #11a371;
+}
+.box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: 'Source Code Pro', monospace;
+    color: #444;
+}
+.box p{
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+}
+@media(max-width: 768px){
+    main.row{
+        grid-template-columns:  1fr;
+    }
+    .row .col:nth-child(2){
+        margin-top: 30px;
+    }
+}
+body{
+    box-sizing: border-box;
+}
+.follow-1{
+ text-align: center !important;
+ padding-left: 10% !important;
+ font-size: 30px !important;
+ margin-left: -10% !important;
 }
